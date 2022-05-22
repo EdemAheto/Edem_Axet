@@ -1,0 +1,760 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Header Section */
+header{
+    background-color: #772D8B;
+    display: flex;
+    height: 40px;
+}
+header img{
+    height: 14px;
+    width: 30px;
+    border-radius: 0px;
+    padding-top: 1%;
+    padding-left: 1%;
+}
+.header_text{
+    display: flex;
+    width: 2000px;
+    padding-left: 60%;
+}
+.header_text h3{
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-right: 0%;
+    color: white;
+    padding-top: 1.5%;
+    color: #FFC42D
+}
+
+.header_text p{
+    font-family: Open Sans;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-left: 5%;
+    color: white;
+    padding-top: 2%;
+}
+.header_text img{
+    padding-top: 3%;
+}
+
+/* Navigation Section */
+.introduction{
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+.header_contact{
+    padding-left: 6%;
+    padding-top: 1%;
+    width: 20%;
+}
+.header_contact h1{
+    left: 160px;
+    top: 19px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: white;
+}
+.header_contact p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #FFC42D;
+}
+.navbar{
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.226);
+}
+nav{
+    width: 100%;
+}
+nav ul{
+    margin-left: 42%;
+}
+nav ul li{
+    display: inline-block;
+    font-family: Open Sans;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 3%;
+    font-size: 15px;
+
+}
+.request_button{
+    width: 137px;
+    height: 34px;
+    left: 1192px;
+    top: 20px;
+    background: #EE2B7A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+.menu_icon{
+    display: none;
+}
+
+/* Login Section */
+.title_section{
+    display: flex;
+}
+.title h1{
+    font-family: 'Open Sans', sans-serif; 
+    font-style: normal;
+    font-size: 40px;
+    line-height: 80px;
+    color: #ffffffee;
+    padding-top: 13%;
+    padding-left: 17%;
+    width: 600px;
+
+}
+.login{
+    background-color: rgba(0, 0, 0, 0.329);
+    width: 400px;
+    height: 400px;
+    margin-top: 2%;
+    margin-left: 20%;
+    border: none;
+    border-radius: 10px;
+}
+.login h1{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 7%;
+}
+.inputs input{
+    width: 300px;
+    height: 40px;
+    top: 282px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-left: 11.5%;
+    padding: 1%;
+    margin-top: 4%;
+}
+.inputs p{
+    color: white;
+    padding-left: 240px;
+    padding-top: 5%;
+}
+.inputs button{
+    width: 300px;
+    height: 40px;
+    left: 958px;
+    top: 282px;
+    background: #EE2B7A;
+    border-radius: 10px;
+    margin-left: 11.5%;
+    padding: 1%;
+    margin-top: 5%;
+    border: none;
+    color: white;
+    font-size: 15px;
+}
+
+.sign {
+    font-size: 15px;
+    color: white;
+    margin-top: 8%;
+    margin-left: 30%;
+}
+span{
+    color: #EE2B7A;
+}
+
+
+/* About Section */
+main{
+    display: flex;
+    margin-top: 5%;
+}
+main img{
+    width: 550px;
+    padding-right: 2%;
+}
+.about{
+    padding: 4% 20% 2% 6%;
+    margin-left: 2%;
+}
+.about h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: #474747;
+}
+.about h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    text-transform: uppercase;
+    color: #995AAA;
+
+}
+.about p{    
+    left: 68px;
+    top: 930px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 154.7%;
+    padding-top: 4%;
+    font-size: 15px;
+    color: #000000;
+    width: 120%;
+
+}
+
+
+/* Service Section */
+.provision{
+    margin-top: 10%;
+}
+.provision h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    text-transform: uppercase;
+    color: #995AAA;
+    text-align: center;
+}
+.provision h1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: #474747;
+    text-align: center;
+}
+.services{
+    display: flex;
+}
+.support{
+    padding: 2%;
+    background-color: white;
+    margin: 2%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.155);
+    height: 300px;
+}
+.support_image{
+    background-color: #772D8B;
+    width: 30%;
+    height: 25%;
+    margin-left: 30%;
+    padding-left: 9%;
+    padding-top: 5%;
+}
+.support h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 154.7%;
+    color: #474747;
+    text-align: center;
+    padding-top: 20%;
+    margin-bottom: 15%;
+}
+.support p{
+    font-family: 'Open Sans', sans-serif; 
+    font-size: 13px;
+    line-height: 154.7%;
+}
+
+
+/* Work Flow Section */
+article{
+    background-image: url(./images/section_men-1\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10%;
+    height: 70vh;
+}
+.men{
+    background: rgba(60, 7, 70, 0.116);
+    width: 100%;
+    height: 65.5vh;
+    padding-top: 2%;
+
+}
+.men h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    
+}
+.men h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: white;
+    text-align: center;
+}
+.work{
+    display: flex;
+    padding: 1%;
+}
+.starter{
+    padding: 2%;
+    margin: 2%;
+    height: 300px;
+}
+.starter_img {
+width: 80px;
+height: 80px;
+border-radius: 70px;
+border: 5px solid #EE2B7A;
+margin-left: 30%;
+}
+.starter_img img{
+    padding: 33%;
+}
+.starter h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    padding-top: 10%;
+    margin-bottom: 15%;
+}
+.starter p{
+    color: white;
+    text-align: center;
+}
+
+/* Testimonial Section */
+.Testimonial{
+    margin-top: 10%;
+}
+.Testimonial h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    text-transform: uppercase;
+    color: #995AAA;
+    text-align: center;
+}
+.Testimonial h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: #474747;
+    text-align: center;
+}
+.Personnel{
+    display: flex;
+}
+.voice{
+    padding: 4%;
+    background-color: white;
+    margin: 5%;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.155);
+    height: 300px;
+}
+.voice img{  
+    width: 80px;
+    height: 80px;
+    border-radius: 70px;
+    border: none;
+    margin-left: 30%;
+}
+.voice p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 154.7%;
+    color: #474747;
+    text-align: center;
+    padding-top: 20%;
+    margin-bottom: 15%;
+}
+
+/* News Section */
+.News{
+    margin-top: 10%;
+}
+.News h3{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 154.7%;
+    color: #474747;
+    text-align: center;
+}
+.News h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: #995AAA;
+    text-align: center;
+}
+.update{
+    display: flex;
+}
+.announcement{
+    height: 500px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.155);
+    margin: 4%;
+}
+.announcement img{
+    width: 100%;
+}
+.announcement h3{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 154.7%;
+    color: #565656;
+    padding: 8% 4%;
+
+}
+.announcement p{
+    line-height: 154.7%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    padding: 2%;
+}
+.news_button{
+    width: 137px;
+    height: 34px;
+    left: 1192px;
+    top: 20px;
+    background: #EE2B7A;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin-left: 30%;
+}
+
+
+/* Video Section */
+.main{
+    background-image: url(./images/clouds-daytime-equipment-129544\ 1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 10%;
+    height: 60vh; 
+}
+.main p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 154.7%;
+    padding: 4% 30%;
+    color: white;
+}
+.play{
+    background-color: #772d8b3a;
+    height: 55%;
+}
+.player{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255, 255, 255, 0.432);
+    margin: 1% 50%;
+    border-radius: 50px;
+    
+
+}
+.play_button{
+    background-color: white;
+    margin: 2% 20%;
+    width: 60px;
+    height: 60px;
+    border-radius: 40px;
+}
+.play_button img{
+    margin: 20% 30%;
+}
+
+
+/* Collaboration Section */
+.institution_logos{
+    margin-top: 5%;
+}
+.institution_logos h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 154.7%;
+    color: #995AAA;
+    text-align: center;
+    width: 100%; 
+}
+.logos{
+    display: flex;
+    width: 100%;
+}
+.logos img{
+    width: 150px;
+    height: 120px;
+    padding: 2%;
+
+}
+
+/* Footer Section */
+.categories{
+    background-color: #131212d8;
+    display: flex;
+    margin-top: 5%;
+    padding: 0%;
+}
+.about_company{
+    padding: 2% 2%;
+    width: 300px;
+    color: white;
+}
+.about_company h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+}
+.about_company p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+
+}
+.information{
+    padding: 2% 5%;
+    width: 200px;
+    color: white;
+}
+.information h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+}
+.footer_nav ul li{
+    display: block;
+    font-family: 'Open Sans';
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: white;
+    padding: 3%;
+    font-size: 15px;
+}
+
+.contact_info{
+    padding: 2% 2%;
+    width: 380px;
+    color: white;
+}
+.address{
+    display: flex;
+    margin-top: 5%;
+}
+.address p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    padding-left: 5%;
+}
+.contact_info h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+}
+.recent_news{
+    padding: 2% 5%;
+    color: white;
+}
+.recent_news h1{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+}
+.recent_news p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 154.7%;
+    text-align: left;
+    width: 100%; 
+    margin-bottom: 7%;
+    border-bottom: 1px solid white;
+}
+.footer_end{
+    padding-top: 0.5%;
+    text-align: center;
+}
+
+@media only screen and (max-width: 420px){
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        display: none;
+    }
+
+    .navbar{
+        background-color: transparent;
+    }
+    .header_contact{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    .menu_icon{
+        display: block;
+        color: white;
+        padding-left: 60%;
+    }
+
+    .introduction{
+        height: 1000px;
+    }
+    .title_section{
+        display: block;
+        height: 120px;
+    }
+    .title h1{
+        padding: 0%;
+        font-size: 30px;
+        width: 350px;
+        margin-left: 7%;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .login{
+        margin-left: 0%;
+        width: 389PX;
+    }
+    main{
+        display: block;
+        margin-bottom: 30%;
+    }
+
+    main img{
+        width: 300px;
+        padding-left: 10%;
+        margin-top: 4%;
+    }
+    .support_image{
+        width: 30%;
+        padding-left: 10%;
+    }
+    .support_image img{
+        margin-left: 10%;
+    }
+    article{
+        height: 1500px;
+    }
+    .men{
+        height: 1500px;
+    }
+    .starter_img{
+        margin-left: 40%;
+    }
+    .services{
+        display: block;
+    }
+    .Testimonial{
+        margin-top: 100px;
+    }
+    .work{
+        display: block;
+    }
+    .Personnel{
+        display: block;
+    }
+    .voice{
+        margin: 5% 20%;
+    }
+    .update{
+        display: block;
+    }
+    .play{
+        height: 45%;
+    }
+    .logos{
+        display: block;
+        text-align: center;
+    }
+    .categories{
+        display: block;
+        padding-left: 2%;
+    }
+
+}
+
+
+
